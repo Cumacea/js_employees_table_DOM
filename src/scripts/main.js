@@ -84,7 +84,7 @@ form.className = 'new-employee-form';
 
 form.innerHTML = `
   <label> Name: <input type="text" name="name" data-qa="name" required/></label>
-  <label> Position: <input type="text" name="position" data-qa="position" /></label>
+  <label> Position: <input type="text" name="position" data-qa="position" required/></label>
   <label> Office:
     <select name="office" data-qa="office" required>
       <option value="Tokyo">Tokyo</option>
